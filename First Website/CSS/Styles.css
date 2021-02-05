@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(183, 227, 255);
+}
+h1 {
+    margin: 0, auto, 5, auto;
+    font-size: 2em;
+    font-weight: 100;
+    font-family: 'Pacifico', cursive;
+    color: rgb(7, 102, 102);
+}
+h2{
+    font-size: 2em;
+    color: rgb(7, 102, 102);
+    font-family: 'DM Sans', sans-serif;
+}
+h3{
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(7, 102, 102);
+}
+p{
+    font-size: 1em;
+    font-family: 'Secular One', sans-serif;
+}
+.Logo{
+    width: 100px;
+}
+.Top-Container {
+    padding-top: 100px;
+    position: relative;
+}
+.Computer {
+    position: relative;
+    width: 1500px;
+    padding: 100px;
+}
+.skills{
+    margin: initial;
+}
+.Skill{
+    position: relative;
+    height: 256px;
+    width: 256px;
+    display: inline-block;
+}
+.Skill-Row{
+    text-align: left;
+}
+.Skill-Name{
+    Padding: 0px;
+    margin: 0;
+}
+.footer-link{
+    font-size: 25px;
+    margin: auto 25px auto 25px;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(183, 227, 255);
+    text-decoration: none;
+}
+.bottom-container{
+    background-color: rgb(7, 102, 102);
+    height: 150px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #097d6a 100%);
+	background-color:#599bb3;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Secular One', sans-serif;
+	font-size:22px;
+	font-weight: Large;
+	padding:16px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 39px #1b7fc2;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #097d6a 5%, #599bb3 100%);
+	background-color:#097d6a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
